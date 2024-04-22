@@ -1,0 +1,44 @@
+[
+  {
+    "assignedServiceCenter": "XSE",
+    "description": "USCIS SEATTLE",
+    "status": "ACTIVE",
+    "address": {
+      "street1": "12500 Tukwila International Blvd",
+      "street2": null,
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98168",
+      "zipcodeplus4": null
+    },
+    "timeSlots": []
+  },
+  {
+    "assignedServiceCenter": "XSF",
+    "description": "USCIS SPOKANE",
+    "status": "ACTIVE",
+    "address": {
+      "street1": "920 W Riverside",
+      "street2": "Room 691",
+      "city": "Spokane",
+      "state": "WA",
+      "zipcode": "99201",
+      "zipcodeplus4": null
+    },
+    "timeSlots": []
+  },
+  {
+    "assignedServiceCenter": "XSH",
+    "description": "USCIS YAKIMA",
+    "status": "ACTIVE",
+    "address": {
+      "street1": "415 N 3rd Street",
+      "street2": null,
+      "city": "Yakima",
+      "state": "WA",
+      "zipcode": "98901",
+      "zipcodeplus4": null
+    },
+    "timeSlots": []
+  }
+]
