@@ -3,7 +3,9 @@
 STATE="WA"
 TIME_SLOTS=$(curl -s https://my.uscis.gov/appointmentscheduler-appointment/field-offices/state/$STATE | /usr/local/bin/jq '.[0].timeSlots | length')
 
-echo "Num time slots: $TIME_SLOTS, STATE: $STATE"
+now="$(date +"%T")"
+
+echo "$now: Num time slots: $TIME_SLOTS, STATE: $STATE"
 
 # check if time slot is available
 # publish to slack if available
